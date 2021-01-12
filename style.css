@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+p {
+    margin: 5px;
+    font-weight: 700;
+    font-size: 1em;
+    color: hsl(229, 23%, 23%);
+}
+
+span {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+hr {
+    border: 0.3px solid rgba(150, 150, 150, 0.2);
+    margin: 20px 0;
+}
+
+
+.bg_circle_top {
+    position: absolute;
+    z-index: -1;
+    left: -9em;
+    bottom: 25.5em;
+}
+
+.bg_circle_bottom {
+    position: absolute;
+    z-index: -1;
+    right: -10em;
+    top: 20em;
+}
+
+.main_card {
+    background-color: #eee;
+    height: inherit;
+    width: 22em;
+    margin: 20% auto;
+    text-align: center;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.header_pattern img{
+    width: 100%;
+}
+
+.header_image_card {
+    height: 4em;
+}
+
+.header_image_card img {
+    transform: translate(0, -57px);
+    border: 4px solid white;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.card_bio {
+   display: inline;
+   width: 300px;
+}
+
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social_column {
+    margin-bottom: 10px;
+}
+
+.social span {
+    font-size: 12px;
+}
+
+footer {
+    margin-top: 10px;    
+}
+
+@media screen and (max-width: 375px) {
+    main{ 
+        margin: 40% auto;
+    }
+
+    .bg_circle_top {
+        position: absolute;
+        top: -40em;
+        left: -45em;
+    }
+
+    .bg_circle_bottom {
+        position: absolute;
+        top: 20em;
+        left: 8em;
+    }
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
